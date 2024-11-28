@@ -9,6 +9,5 @@ const compact = (array) => {
     }
   }
   console.log(truthy);
-  const newArray = truthy.filter((element) => element !== '');
-  return newArray;
+  return truthy;
 };
